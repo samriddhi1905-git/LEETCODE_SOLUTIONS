@@ -1,41 +1,45 @@
 class Solution {
 
-    public boolean canSplit(int[] nums, int maxSum, int k) {
-        int count = 1;
-        int currSum = 0;
-
-        for (int num : nums) {
-            if (currSum + num <= maxSum) {
-                currSum += num;
-            } else {
-                count++;
-                currSum = num;
+    public boolean helper(int nums[],int guess,int k){
+        int found = 1;
+        int sum = 0;
+        for(int i = 0; i<nums.length; i++){
+            if((sum+nums[i])<=guess){
+                sum += nums[i];
+            }
+            else{
+                found++;
+                sum = nums[i];
             }
         }
 
-        return count <= k;
+        return found<=k;
     }
 
     public int splitArray(int[] nums, int k) {
-
         int low = 0;
         int high = 0;
-
-        for (int num : nums) {
-            low = Math.max(low, num);
-            high += num;
+        for(int i = 0; i<nums.length; i++){
+            if(nums[i]>low){
+                low = nums[i];
+            }
+            high += nums[i];
         }
 
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
+        int keep = -1;
 
-            if (canSplit(nums, mid, k)) {
-                high = mid - 1;
-            } else {
-                low = mid + 1;
+        while(low<=high){
+            int guess = (low+high)/2;
+
+            if(helper(nums,guess,k)){
+                keep = guess;
+                high = guess-1;
+            }
+            else{
+                low = guess+1;
             }
         }
 
-        return low;
+        return keep;
     }
 }

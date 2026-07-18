@@ -1,9 +1,6 @@
 class Solution {
 
     public boolean helper(int n,int m,int guess,int k){
-        int row = m-1;
-        int col = 0;
-
         int count = 0;
 
        for(int i = 1; i <= m; i++){

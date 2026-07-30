@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0410-split-array-largest-sum) |
+| [0509-fibonacci-number](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0509-fibonacci-number) |
 ## Greedy
 |  |
 | ------- |
@@ -64,5 +65,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0509-fibonacci-number](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0509-fibonacci-number) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0668-kth-smallest-number-in-multiplication-table) |
+## Recursion
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0509-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->

@@ -16,7 +16,7 @@ public:
     }
     
     int sumRange(int left, int right) {
-       cout<<left<<"==="<<right<<"\n"<<sum[left]<<"===<>"<<sum[right]<<"\n";
+    //    cout<<left<<"==="<<right<<"\n"<<sum[left]<<"===<>"<<sum[right]<<"\n";
         if(left == 0){
             return sum[right];
         }

@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0004-median-of-two-sorted-arrays) |
 | [0074-search-a-2d-matrix](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0074-search-a-2d-matrix) |
+| [0209-minimum-size-subarray-sum](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0240-search-a-2d-matrix-ii) |
 | [0275-h-index-ii](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0275-h-index-ii) |
 | [0303-range-sum-query-immutable](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0303-range-sum-query-immutable) |
@@ -22,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0004-median-of-two-sorted-arrays) |
 | [0074-search-a-2d-matrix](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0074-search-a-2d-matrix) |
+| [0209-minimum-size-subarray-sum](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0240-search-a-2d-matrix-ii) |
 | [0275-h-index-ii](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0275-h-index-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -43,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0209-minimum-size-subarray-sum) |
 | [0303-range-sum-query-immutable](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0303-range-sum-query-immutable) |
 | [0410-split-array-largest-sum](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0410-split-array-largest-sum) |
 ## Matrix
@@ -81,4 +84,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0303-range-sum-query-immutable) |
+## Sliding Window
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/samriddhi1905-git/LEETCODE_SOLUTIONS/tree/master/0209-minimum-size-subarray-sum) |
 <!---LeetCode Topics End-->

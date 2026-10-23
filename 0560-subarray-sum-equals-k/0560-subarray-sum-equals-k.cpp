@@ -12,19 +12,19 @@ public:
             prefix[i] = prefix[i-1] + nums[i];
         }
 
-        unordered_map<int,int> mp;
+        unordered_map<int,int> mp;//hashmap
         int ans = 0;
 
         for(int i= 0; i<n; i++){
-            if(prefix[i]==k){
+            if(prefix[i]==k){ //if equal then increase ans++
                 ans++;
             }
 
-            if(mp.find(prefix[i]-k) != mp.end()){
-                ans += mp[prefix[i]-k];
+            if(mp.find(prefix[i]-k) != mp.end()){  //find if pre[i]-k is present in the mp or not 
+                ans += mp[prefix[i]-k]; //if not present add it in the map and increase ans
             }
 
-            mp[prefix[i]]++;
+            mp[prefix[i]]++;  //put the prefix sum also in the map
         }
 
         return ans;
